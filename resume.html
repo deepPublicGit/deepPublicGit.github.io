@@ -23,10 +23,10 @@ layout: home
         <p class="mb-1">{% include about/social.html url=url name='envelope' label=label %}</p>
 
         {% for profile in site.data.bio.basics.profiles %}
-        {% capture url %}{{ profile.url }}{% endcapture %}
-        {% capture name %}{{ profile.network | downcase }}{% endcapture %}
-        {% capture label %}{{ profile.username }}{% endcapture %}
-        <p class="mb-1">{% include about/social.html url=url name=name label=label %}</p>
+          {% capture url %}{{ profile.url }}{% endcapture %}
+          {% capture name %}{{ profile.network | downcase }}{% endcapture %}
+          {% capture label %}{{ profile.username }}{% endcapture %}
+          <p class="mb-1">{% include about/social.html url=url name=name label=label %}</p>
         {% endfor %}
       </div>
       <div class="col">
@@ -42,9 +42,9 @@ layout: home
       </div>
       <div class="col-lg-9">
         {% for entry in site.data.bio.basics.summaryLong %}
-        <p class="m-0 long-summary-entry">
-          {{ entry }}
-        </p>
+          <p class="m-0 long-summary-entry">
+            {{ entry }}
+          </p>
         {% endfor %}
       </div>
     </div>
@@ -79,9 +79,9 @@ layout: home
       </div>
       <div class="col-lg-9">
         <p class="m-0">
-          <a href="{{ site.data.bio.basics.resumeUrlPdf }}" target="_blank">Download <svg class="tf-social">
-            <use xlink:href="{{ '/img/bootstrap-icons.svg' | prepend: site.baseurl }}#filetype-pdf"/>
-          </svg></a>
+         <a href="{{ site.data.bio.basics.resumeUrlPdf }}" target="_blank">Download <svg class="tf-social">
+          <use xlink:href="{{ '/img/bootstrap-icons.svg' | prepend: site.baseurl }}#filetype-pdf"/>
+        </svg></a>
         </p>
       </div>
     </div>

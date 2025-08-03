@@ -59,3 +59,14 @@ a {
 .long-summary-entry:not(:last-child) {
   margin-bottom: 1em !important;
 }
+
+.highlight-resume {
+  animation: highlight-fade 2s ease-in-out;
+  background-color: #b6f6f8 !important;
+  transition: background-color 2s ease;
+}
+
+@keyframes highlight-fade {
+  0% { background-color: #b6f6f8; }
+  100% { background-color: transparent; }
+}

@@ -48,9 +48,29 @@
   ],
   "work": [
   ],
+  "publications": [
+    {
+      "company": "A Unified Deep Learning Framework for Smartphone-Enabled ADHD Detection ",
+      "position": "IEEE Transactions",
+      "website": "https://ieeexplore.ieee.org/document/10339337",
+      "startDate": "2023",
+      "endDate": "",
+      "summary": "S. Mandal, G. P. Kumar, M. Saini, U. Satija and Y. Kumar",
+      "highlights": [
+        "Cleaned and Preprocessed 16 channel time-series EEG data using NumPy and MATLAB.",
+        "Implemented 1D-CNN and fine-tuned until achieving 99% accuracy in detecting ADHD across public datasets."
+      ]
+    }
+  ],
   "volunteer": [
   ],
   "awards": [
+    {
+      "title": "Martech Innovation Challenge - Winner",
+      "date": "2024",
+      "awarder": "UnitedHealth Group",
+      "summary": "Proposed an Idea to automate Post Deployment Validation using AI, won the challenge amongst 150+ participants and secured funding to implement it."
+    }
   ],
   "references": [
     {

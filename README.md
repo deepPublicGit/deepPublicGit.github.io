@@ -17,3 +17,5 @@ Run the server:
 ```bash
 bundle exec jekyll serve
 ```
+
+Favicon credits: https://github.com/egonelbre/gophers/

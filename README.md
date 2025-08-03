@@ -7,6 +7,8 @@
 - [ ] Add more details to work section.
 - [ ] Add more projects.
 - [ ] Review home section.
+- [ ] Add active project indicator.
+- [ ] Changelog / Latest commit for project.
 
 For details on this professional portfolio, please see https://techfolios.github.io.
 

@@ -5,11 +5,13 @@
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
+  --linkedin-blue: #0077B5;
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--bs-blue);
   --tf-pill-bg: var(--bs-gray);
   --tf-icon-fill: var(--bs-gray);
-  --tf-icon-hover: var(--bs-gray-500);
+  --tf-icon-hover: var(--bs-black);
+  --tf-icon-linkedin-hover: var(--linkedin-blue);
   --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--bs-gray-200);
   --tf-projects-bg-color: var(--bs-gray-100);
@@ -28,6 +30,10 @@
 
 .tf-social:hover {
   fill: var(--tf-icon-hover);
+}
+
+.tf-social#linkedin:hover {
+  fill: var(--tf-icon-linkedin-hover);
 }
 
 a {

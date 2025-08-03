@@ -4,7 +4,7 @@
 {% else %}
 <a href="{{ url }}" target="_blank">
 {% endif %}
-  <svg class="tf-social">
+  <svg class="tf-social" id="{{include.name}}">
     <use xlink:href="{{ '/img/bootstrap-icons.svg' | prepend: site.baseurl }}#{{- include.name -}}"/>
   </svg>
   <span>{{ include.label }}</span>
